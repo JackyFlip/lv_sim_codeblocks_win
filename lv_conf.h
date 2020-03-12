@@ -21,7 +21,7 @@
 
 /* Maximal horizontal and vertical resolution to support by the library.*/
 #define LV_HOR_RES_MAX          (480)
-#define LV_VER_RES_MAX          (320)
+#define LV_VER_RES_MAX          (272)
 
 /* Color depth:
  * - 1:  1 byte per pixel
@@ -29,7 +29,7 @@
  * - 16: RGB565
  * - 32: ARGB8888
  */
-#define LV_COLOR_DEPTH     16
+#define LV_COLOR_DEPTH     32
 
 /* Swap the 2 bytes of RGB565 color.
  * Useful if the display has a 8 bit interface (e.g. SPI)*/
@@ -286,6 +286,7 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 #define LV_USE_THEME_MATERIAL   1   /*Flat theme with bold colors and light shadows*/
 #define LV_USE_THEME_ZEN        1   /*Peaceful, mainly light theme */
 #define LV_USE_THEME_NEMO       1   /*Water-like theme based on the movie "Finding Nemo"*/
+#define LV_USE_THEME_JACKI      1   /*My theme*/
 
 /*==================
  *    FONT USAGE
@@ -299,10 +300,12 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 
 /* Robot fonts with bpp = 4
  * https://fonts.google.com/specimen/Roboto  */
-#define LV_FONT_ROBOTO_12    0
+#define LV_FONT_ROBOTO_12    1
 #define LV_FONT_ROBOTO_16    1
-#define LV_FONT_ROBOTO_22    0
-#define LV_FONT_ROBOTO_28    0
+#define LV_FONT_ROBOTO_22    1
+#define LV_FONT_ROBOTO_28    1
+#define OPEN_20              1
+#define PACIFICO_22          1
 
 /* Demonstrate special features */
 #define LV_FONT_ROBOTO_12_SUBPX 1

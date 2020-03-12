@@ -447,6 +447,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_font/lv_symbol_def.h" />
+		<Unit filename="lvgl/src/lv_font/open_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_font/pacifico_22.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="lvgl/src/lv_fonts/lv_font_builtin.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal.h" />
 		<Unit filename="lvgl/src/lv_hal/lv_hal_disp.c">
@@ -676,6 +682,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lvgl/src/lv_themes/lv_theme_default.h" />
+		<Unit filename="lvgl/src/lv_themes/lv_theme_jacki.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lvgl/src/lv_themes/lv_theme_jacki.h" />
 		<Unit filename="lvgl/src/lv_themes/lv_theme_material.c">
 			<Option compilerVar="CC" />
 		</Unit>
